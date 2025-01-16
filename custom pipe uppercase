@@ -9,3 +9,4 @@ export class MyCustomPipe implements PipeTransform {
     return value.toUpperCase();
   }
 }
+/*<p>{{ myValue | myCustomPipe }}</p>*/
